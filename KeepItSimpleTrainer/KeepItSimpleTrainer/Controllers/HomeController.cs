@@ -26,5 +26,12 @@ namespace KeepItSimpleTrainer.Controllers
 
             return View();
         }
+
+        public ActionResult CreateModule()
+        {
+            ViewBag.Message = "Create Modules Page";
+
+            return View();
+        }
     }
 }
