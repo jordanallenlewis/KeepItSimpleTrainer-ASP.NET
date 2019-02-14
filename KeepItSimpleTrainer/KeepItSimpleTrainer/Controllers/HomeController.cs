@@ -33,5 +33,12 @@ namespace KeepItSimpleTrainer.Controllers
 
             return View();
         }
+
+        public ActionResult Club()
+        {
+            ViewBag.Message = "Club Page";
+
+            return View();
+        }
     }
 }
