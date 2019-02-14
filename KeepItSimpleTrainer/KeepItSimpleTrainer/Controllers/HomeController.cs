@@ -33,5 +33,11 @@ namespace KeepItSimpleTrainer.Controllers
 
             return View();
         }
+        public ActionResult SearchModules()
+        {
+            ViewBag.Message = "Search";
+
+            return View();
+        }
     }
 }
