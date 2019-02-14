@@ -29,7 +29,21 @@ namespace KeepItSimpleTrainer.Controllers
 
         public ActionResult CreateModule()
         {
-            ViewBag.Message = "Create Modules Page";
+            ViewBag.Message = "Create Modules Page - Andy Gandara";
+
+            return View();
+        }
+
+        public ActionResult AddUser()
+        {
+            ViewBag.Message = "Add New User - Andy Gandara";
+
+            return View();
+        }
+
+        public ActionResult ViewUsers()
+        {
+            ViewBag.Message = "View Users - Andy Gandara";
 
             return View();
         }
