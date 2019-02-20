@@ -33,5 +33,11 @@ namespace KeepItSimpleTrainer.Controllers
 
             return View();
         }
+        public ActionResult Users()
+        {
+            ViewBag.Message = "Users Page";
+
+            return View();
+        }
     }
 }
